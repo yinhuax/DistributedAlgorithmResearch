@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>distributed algorithm research</groupId>
-    <artifactId>distributed algorithm research</artifactId>
+    <groupId>distributed_algorithm_research</groupId>
+    <artifactId>distributed_algorithm_research</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -30,6 +30,25 @@
             <artifactId>spark-mllib_2.11</artifactId>
             <version>${spark.version}</version>
         </dependency>
+
+        <!-- xbg依赖 -->
+        <dependency>
+            <groupId>ml.dmlc</groupId>
+            <artifactId>xgboost4j</artifactId>
+            <version>0.82</version>
+        </dependency>
+        <dependency>
+            <groupId>ml.dmlc</groupId>
+            <artifactId>xgboost4j-example</artifactId>
+            <version>0.82</version>
+        </dependency>
+        <dependency>
+            <groupId>ml.dmlc</groupId>
+            <artifactId>xgboost4j-spark</artifactId>
+            <version>0.82</version>
+        </dependency>
+
     </dependencies>
+
 
 </project>
